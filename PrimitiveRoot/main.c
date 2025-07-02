@@ -90,9 +90,9 @@ int find_prime_factors(long long n, long long factors[])
 bool is_primitive_root(long long g, long long p)
 {
     if (gcd(g, p) != 1)
-        return false; // g must be coprime to p
+        return false; // g must be co-prime to p
 
-    long long phi = p - 1;       // Euler's totient function for prime p
+    long long phi = p - 1;       // Euler's function for prime p
     long long prime_factors[64]; // Array to store prime factors
     int num_prime_factors;
 

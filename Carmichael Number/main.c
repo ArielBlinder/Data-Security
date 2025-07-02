@@ -65,7 +65,7 @@ bool isCarmichael(int num)
         return false; // Almost all Carmichael numbers are odd
     }
 
-    // Check Fermat's condition for bases coprime to num
+    // Check Fermat's condition for bases co-prime to num
     for (int a = 2; a < num && a <= 100; a++)
     { // Limit checking for efficiency
         if (gcd(a, num) == 1)
