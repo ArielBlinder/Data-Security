@@ -1,6 +1,6 @@
 # Data Security Algorithms
 
-Optimized C implementations of cryptographic number theory algorithms.
+C implementations of cryptographic number theory algorithms.
 
 ## Programs
 
