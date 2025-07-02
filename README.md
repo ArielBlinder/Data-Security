@@ -5,9 +5,13 @@ C implementations of cryptographic number theory algorithms.
 ## Programs
 
 **Carmichael Number** - Check if a number is a Carmichael number
+
 **Carmichael Number over** - Find next Carmichael number after input
+
 **Prime Count** - Count primes in a range
+
 **PrimeNumberNext** - Find next prime after input
+
 **PrimitiveRoot** - Find primitive roots modulo a prime
 
 ## Building
