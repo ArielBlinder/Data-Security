@@ -1,0 +1,44 @@
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.out
+*.bin
+*.dll
+*.so
+*.dylib
+
+# CMake build directories
+cmake-build-*/
+build/
+out/
+
+# IDE files
+.idea/
+.vscode/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.pdb
+*.dSYM/
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+
+# Testing files
+Testing/ 
